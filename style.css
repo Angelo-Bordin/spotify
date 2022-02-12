@@ -1,0 +1,174 @@
+@font-face {
+    font-family: font-logo;
+    src: url('fonts/Gotham-Bold.otf');
+    font-family: span;
+    src: url('fonts/Gotham-Black.otf');
+}
+
+body{
+    margin: 0px;
+    color: gray;
+}
+
+#index {
+    background-color: #202727;
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+}
+
+#principal {
+    float: right;
+    background-color: white;
+    height: 85%;
+    width: 82%;
+}
+
+#menu_lateral {
+    background-color: black;
+    width: 18%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    color:white;
+    margin-top: 10px;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-family: font-logo, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#logo img{
+    height: 100%;
+}
+
+#menu_lateral-superior {
+    border-bottom: solid 1px gray;
+    height: 255px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: span, sans-serif;
+    font-size: smaller
+}
+
+.botao-superior {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.botao-superior i {
+   padding-right: 15px;
+   font-size: 20px;
+}
+
+.botao-inferior {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.botao-inferior i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+#menu_lateral-inferior {
+    height: 225px;
+    width: 80%;
+    margin: 15px;
+}
+
+.inicio, .buscar, .biblioteca, .playlist, .curtidas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inicio:hover, .buscar:hover, .biblioteca:hover, .playlist:hover, .curtidas:hover {
+    color:white;
+    cursor:pointer;
+}
+
+.inicio:active, .buscar:active, .biblioteca:active, .playlist:active, .curtidas:active {
+    color:white;
+}
+
+#player {
+    background-color: #072227;
+    height: 14.5%;
+    width: 100%;
+    border-top: solid 1px gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.music_details {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+}
+
+.player_control {
+    /* background-color: blue; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls {
+    height: 60%;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls_class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+#controls_class i {
+    height: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fi-rr-pause:active {
+    background-color: #145e6b;
+    border-radius: 14px;
+}
+
+#controls_class i:hover {
+    color: white;
+    font-size: 20px;
+}
+
+.music_config {
+    height: 100%;
+    width: 30%;
+}
